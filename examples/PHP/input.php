@@ -1,3 +1,3 @@
 <?php
 
-echo "This is a test file for obfuscation.\n";
+echo "Hello World! 23\n";

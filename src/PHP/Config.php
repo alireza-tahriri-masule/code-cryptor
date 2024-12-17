@@ -4,7 +4,7 @@ namespace CodeCryptor\Config;
 
 class Config
 {
-    private static $defaultOutputPath = __DIR__ . '/../../examples/PHP/';
+    private static $defaultOutputPath = __DIR__ . '/../../examples/php/';
 
     public static function getOutputPath()
     {

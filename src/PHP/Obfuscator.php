@@ -31,7 +31,7 @@ class Obfuscator
     public function obfuscate()
     {
         $originalCode = php_strip_whitespace($this->inputPath);
-        $compressedCode = gzcompress("ob_end_clean();?>{$originalCode}", $this->compressionLevel);
+        $compressedCode = gzcompress("{$originalCode}", $this->compressionLevel);
 
         $encryptedCode = EncryptionHelper::encryptData($compressedCode, $this->secretKey);
         $dataWithSignature = $encryptedCode . '::' . hash('sha256', $encryptedCode);
