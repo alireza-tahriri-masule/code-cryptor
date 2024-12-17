@@ -78,12 +78,3 @@ You can configure the obfuscation process by modifying the `Config.php` file (fo
 
 ## License
 This project is licensed under the MIT License.
-```
-
-### Changes:
-1. **Project Title**: Updated the title to "PHP and Python Code Obfuscator" to reflect the inclusion of both versions.
-2. **New Features**: Added information about the new features, including the support for both PHP and Python.
-3. **Installation and Usage**: Detailed the installation and usage instructions for both PHP and Python versions.
-4. **Default `print` Output**: Added information about the change to the default `print` statement in both PHP and Python to `"Hello World!"`.
-
-This updated `README.md` now includes details for both the PHP and Python versions of the project.
